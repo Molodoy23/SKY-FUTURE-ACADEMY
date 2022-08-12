@@ -664,24 +664,32 @@ body {
 }
 
 .interactive {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 26px;
+  position: relative;
+  padding: 20px 20px 26px 20px;
   margin-bottom: 20px;
   background: #ffe38e;
   border-radius: 10px;
 }
 .interactive__title {
+  padding-left: 98px;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.08;
+  margin-top: 18px;
 }
 .interactive__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 22px;
+  margin-top: 42px;
+}
+.interactive__list {
+  display: grid;
+  grid-template-columns: 24px 28px;
+  grid-gap: 4px;
+  position: absolute;
+  top: 20px;
+  left: -118px;
 }
 .interactive__group {
   display: grid;
