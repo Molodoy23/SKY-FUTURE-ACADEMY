@@ -219,7 +219,7 @@ body {
   margin-top: 12px;
 }
 .menu-address__group {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 .menu-address__icon-geo {
   width: 17px;
@@ -248,7 +248,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.82;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 .menu-address__contacts {
   font-style: normal;
