@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky future academy</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+    </style>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-group">
+          <span>
+            <svg class="page-header__icon-logo">
+              <use href="./img/icons/symbol-defs.svg#icon-Logo"></use>
+            </svg>
+          </span>
+          <button type="button" class="page-header__menu-button" data-menu-button>
+            <svg class="page-header__menu-items" aria-label="Переключатель мобильного меню">
+              <use
+                href="./img/icons/symbol-defs.svg#icon-BugerMenu"
+                class="page-header__icon-menu"
+              ></use>
+              <use
+                class="page-header__icon-exit"
+                href="./img/icons/symbol-defs.svg#icon-exitBurger"
+              ></use>
+            </svg>
+          </button>
+          <div class="page-header__menu" data-menu>
+            <div class="container">
+              <button class="page-header__button">
+                <svg class="page-header__icon" width="20px" height="16px">
+                  <use href="./img/icons/symbol-defs.svg#icon-Blocks"></use>
+                </svg>
+                <h2 class="page-header__menu-title">Все курсы</h2>
+              </button>
+              <nav class="header-nav">
+                <ul class="header-nav__list">
+                  <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Об академии</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Мероприятия</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Новости</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">База знаний</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Карьера</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a class="header-nav__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="menu-address">
+                <div class="menu-address__group">
+                  <a class="menu-address__link" href="">
+                    <svg class="menu-address__icon-geo">
+                      <use href="./img/icons/symbol-defs.svg#icon-geo"></use>
+                    </svg>
+                    <p class="menu-address__name" href="#">Киев</p>
+                    <svg class="menu-address__icon-done">
+                      <use href="./img/icons/symbol-defs.svg#icon-Done"></use>
+                    </svg>
+                  </a>
+                </div>
+                <a class="menu-address__link-sign" href="#">Войти</a>
+              </div>
+              <address>
+                <a href="tel:+380 66 666 66 66" class="menu-address__contacts">+380 66 666 66 66</a>
+                <p class="menu-address__item">
+                  <a href="https://goo.gl/maps/jg8yxFYKUGYRBdv56" class="menu-address__location"
+                    >г. Киев, ул. Долбоеба, д. 50</a
+                  >
+                </p>
+                <p class="menu-address__item">
+                  <a href="mailto:info@skyfutureacademy.ua" class="menu-address__email"
+                    >info@skyfutureacademy.ua</a
+                  >
+                </p>
+              </address>
+              <ul class="social-media">
+                <li class="social-media__item">
+                  <a href="">
+                    <svg class="social-media__icon-vk">
+                      <use href="./img/icons/symbol-defs.svg#icon-vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media__item">
+                  <a href="">
+                    <svg class="social-media__icon-instagram">
+                      <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media__item">
+                  <a href="">
+                    <svg class="social-media__icon-facebook">
+                      <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media__item">
+                  <a href="">
+                    <svg class="social-media__icon-youtube">
+                      <use href="./img/icons/symbol-defs.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media__item">
+                  <a href="">
+                    <svg class="social-media__icon-telegram">
+                      <use href="./img/icons/symbol-defs.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <img class="hero-section__image" src="./img/HeroBack.jpg" alt="Главная картинка" />
+        <div class="hero-section__group">
+          <div class="container">
+            <h1 class="hero-section__title">Образовательная платформа SKY Future Academy</h1>
+            <p class="hero-section__description">Актуальные знания для новичков и профессионалов</p>
+            <img
+              class="hero-section__decorative"
+              src="./img/icons/line-decoration-gradient.svg"
+              alt="Линия"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <section class="section-attraction">
+          <!-- <span> -->
+          <img src="./img/icons/Field.svg" alt="Поле" />
+          <!-- </span> -->
+          <img class="section-attraction__image" src="./img/icons/Sova.png" alt="Сова" />
+          <div class="attraction-group">
+            <h2 class="section-attraction__title">Кем вы хотите стать?</h2>
+            <p class="section-attraction__description">
+              Пора найти себя и выбрать подходящий курс :)
+            </p>
+            <p class="section-attraction__description">Удачи!</p>
+          </div>
+        </section>
+
+        <section class="section-children">
+          <ul class="section-children__list">
+            <li class="section-children__item">
+              <button class="section-children__button section-children__button-is-active">
+                <img
+                  width="47px"
+                  height="46px"
+                  class="section-children__img"
+                  src="./img/children.png"
+                  alt="Дети"
+                />
+                <h2 class="section-children__title">Дети</h2>
+                <p class="section-children__age">8 — 14 лет</p>
+              </button>
+            </li>
+            <li class="section-children__item">
+              <button class="section-children__button">
+                <img
+                  width="47px"
+                  height="46px"
+                  class="section-children__img"
+                  src="./img/Teenager.png"
+                  alt="Подростки"
+                />
+                <h2 class="section-children__title">Подростки</h2>
+                <p class="section-children__age">14 — 18 лет</p>
+              </button>
+            </li>
+            <li class="section-children__item">
+              <button class="section-children__button">
+                <img
+                  width="47px"
+                  height="46px"
+                  class="section-children__img"
+                  src="./img/adult.png"
+                  alt="Взрослые"
+                />
+                <h2 class="section-children__title">Взрослые</h2>
+                <p class="section-children__age">18 — ∞</p>
+              </button>
+            </li>
+          </ul>
+          <ul class="skills-list">
+            <li class="skills-list__item">
+              <button class="skills-list__button">Робототехника</button>
+            </li>
+            <li class="skills-list__item">
+              <button class="skills-list__button">Soft skills</button>
+            </li>
+            <li class="skills-list__item">
+              <button class="skills-list__button">3D-моделирование и дизайн</button>
+            </li>
+            <li class="skills-list__item">
+              <button class="skills-list__button">Web-разработка</button>
+            </li>
+          </ul>
+        </section>
+        <section class="section-info">
+          <div id="wrap">
+            <div class="section-wrap">
+              <div class="center">
+                <div id="video">
+                  <div class="video-control" id="video-play"></div>
+                  <div class="video-control" id="video-over"></div>
+                  <video id="myVideo" preload="auto" poster="./img/poster.jpg" autoplay controls>
+                    <source id="mp4" src="./video/test.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="section-info__title">
+            Актуальные знания от признанных экспертов рынка для новичков и практикующих
+            специалистов.
+          </p>
+          <ul class="section-info__list">
+            <li class="section-info__item">
+              <p class="section-info__item-zero">0</p>
+              <p class="section-info__description">Курсов</p>
+            </li>
+            <li class="section-info__item">
+              <p class="section-info__item-zero">0</p>
+              <p class="section-info__description">Ведущих преподавателей</p>
+            </li>
+            <li class="section-info__item">
+              <p class="section-info__item-zero">0</p>
+              <p class="section-info__description">Выпускников</p>
+            </li>
+          </ul>
+        </section>
+        <section class="section-news">
+          <div class="invite">
+            <div class="invite__group">
+              <h2 class="invite__title">25 <span class="invite__title-span">ноября</span></h2>
+              <h3 class="invite__title-second">День открытых дверей</h3>
+            </div>
+            <p class="invite__description">
+              Приглашаем всех желающих на бесплатную экскурсию в мир востребованных профессий и
+              полезных навыков
+            </p>
+          </div>
+          <div class="work-programm">
+            <img
+              class="work-programm__img-logo"
+              src="./img/monitor.png"
+              width="77px"
+              height="77px"
+              alt="monitor"
+            />
+            <h3 class="work-programm__title">Программа обучения</h3>
+            <p class="work-programm__description">
+              В списке наших курсов вы сможете найти профессию и занятие по душе, изучить новое и
+              получить практические знания, которые помогут получить работу мечты.
+            </p>
+            <button class="work-programm__button" type="button">
+              Подробнее
+              <img class="work-programm__img-support" src="./img/tik.svg" alt="Галочка" />
+            </button>
+          </div>
+          <div class="news">
+            <img class="news__img" src="./img/newspaper.png" alt="Газета" />
+            <h3 class="news__title">Новости Академии</h3>
+          </div>
+          <div class="world-it">
+            <img class="world-it__img" src="./img/diagram.png" alt="diagram" />
+            <h3 class="world-it__title">Мир IT</h3>
+          </div>
+          <div class="interactive">
+            <div class="interactive__group">
+              <svg class="interactive__icon" wight="24px" height="24px">
+                <use href="./img/icons/symbol-defs.svg#icon-stop"></use>
+              </svg>
+              <svg class="interactive__icon" wight="28px" height="23px">
+                <use href="./img/icons/symbol-defs.svg#icon-triangle"></use>
+              </svg>
+              <svg class="interactive__icon" wight="24px" height="24px">
+                <use href="./img/icons/symbol-defs.svg#icon-circle"></use>
+              </svg>
+              <svg class="interactive__icon" wight="20px" height="25px">
+                <use href="./img/icons/symbol-defs.svg#icon-cursor"></use>
+              </svg>
+            </div>
+            <h3 class="interactive__title">Попробуй!</h3>
+
+            <p class="interactive__description">
+              Пройдите тест и узнайте свои способности в сфере информационных технологий
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./js/BurgerMenu.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/test.js"></script>
+  </body>
+</html>

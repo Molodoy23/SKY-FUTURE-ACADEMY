@@ -1,0 +1,163 @@
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+}
+.header-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-header {
+  background-color: $dark-blue-color;
+  position: relative;
+  &__icon-logo {
+    width: 55px;
+    height: 40px;
+    padding-top: 8px;
+  }
+  &__menu-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.82;
+    color: $main-color;
+    margin-bottom: 27px;
+    display: contents;
+  }
+  &__button {
+    display: inline-flex;
+    align-items: center;
+  }
+  &__icon {
+    margin-right: 6px;
+  }
+  &__menu-items {
+    width: 18px;
+    height: 12px;
+  }
+  &__icon-exit {
+    fill: $white-color;
+  }
+  &__menu-button &__icon-exit {
+    display: none;
+  }
+  &__menu {
+    display: none;
+    background-color: $white-color;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+}
+.page-header__menu-button.page-header__menu-is-open .page-header__icon-exit {
+  display: block;
+}
+.page-header__menu-button.page-header__menu-is-open .page-header__icon-menu {
+  display: none;
+}
+.page-header__menu.page-header__menu-is-open {
+  display: block;
+  z-index: 999;
+  padding-top: 33px;
+  padding-bottom: 30px;
+}
+.header-nav {
+  margin-top: 27px;
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: $main-color;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  &__list {
+    margin-bottom: 54px;
+  }
+}
+.menu-address {
+  display: flex;
+  flex-direction: column;
+  &__item {
+    margin-top: 12px;
+  }
+  &__group {
+    margin-bottom: 36px;
+  }
+  &__icon-geo {
+    width: 17px;
+    height: 20px;
+  }
+  &__icon-done {
+    width: 8px;
+    height: 4px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+  &__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.82;
+    text-decoration-line: underline;
+    margin-right: 12px;
+    margin-left: 9px;
+  }
+  &__link-sign {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.82;
+    margin-bottom: 50px;
+  }
+  &__contacts {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: $dark-blue-color;
+  }
+  &__location,
+  &__email {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    color: $dark-blue-color;
+  }
+}
+.social-media {
+  margin-top: 25px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+  &__icon-vk {
+    width: 26px;
+    height: 27px;
+  }
+  &__icon-instagram,
+  &__icon-telegram {
+    width: 21px;
+    height: 26px;
+  }
+  &__icon-facebook {
+    width: 24px;
+    height: 26px;
+  }
+  &__icon-youtube {
+    width: 27px;
+    height: 26px;
+  }
+}

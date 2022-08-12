@@ -1,0 +1,35 @@
+.attraction-group {
+  position: absolute;
+  top: 60px;
+  left: 33px;
+}
+.section-attraction {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 73px;
+  &__icon {
+    width: 298px;
+    height: 143px;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0.82;
+    color: $main-color;
+    margin-bottom: 23px;
+  }
+  &__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.82;
+    color: $main-color;
+  }
+  &__description:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &__image {
+    position: absolute;
+    bottom: 25px;
+  }
+}

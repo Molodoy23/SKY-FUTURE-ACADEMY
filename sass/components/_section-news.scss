@@ -1,0 +1,40 @@
+.invite {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f7bc75;
+  border-radius: 10px;
+  &__group {
+    margin-bottom: 39px;
+    display: flex;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 49px;
+    margin-right: 28px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title-second {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.04;
+  }
+  &__title-span {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.18;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #333333;
+    padding-bottom: 100px;
+  }
+}

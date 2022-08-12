@@ -1,0 +1,26 @@
+.interactive {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 26px;
+  margin-bottom: 20px;
+
+  background: #ffe38e;
+  border-radius: 10px;
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.08;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 22px;
+  }
+  &__group {
+    display: grid;
+    grid-template-columns: 24px 28px;
+    grid-gap: 4px;
+  }
+}

@@ -1,0 +1,119 @@
+#wrap {
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.section-wrap {
+  border-bottom: 1px solid #ddd;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &--d {
+    background: #000;
+  }
+}
+
+.center {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+#video {
+  width: 100%;
+  position: relative;
+
+  &-over {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+  }
+
+  &-play {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #fff;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.2s ease;
+    transition-property: opacity, visibility;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 21px;
+      width: 0;
+      height: 0;
+      border: 20px solid transparent;
+      border-top-width: 12px;
+      border-bottom-width: 12px;
+      border-left-color: #fff;
+      border-right-width: 0;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      &::before {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  video {
+    width: 100%;
+    display: block;
+  }
+
+  &.video-is-playing {
+    #video {
+      &-play {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+}
+.section-info {
+  &__title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  &__description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.89;
+  }
+  &__item-zero {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 0.82;
+    letter-spacing: 0.095em;
+    background: #f66d52;
+    background: -webkit-linear-gradient(to right, #f7941d 49%, #27aae1 49%);
+    background: linear-gradient(to right, #f7941d 49%, #27aae1 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.video-control.video-is-playing {
+  display: none;
+}
