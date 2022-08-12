@@ -192,6 +192,7 @@ body {
   z-index: 999;
   padding-top: 33px;
   padding-bottom: 30px;
+  border-bottom: 2px solid silver;
 }
 
 .header-nav {
@@ -218,7 +219,7 @@ body {
   margin-top: 12px;
 }
 .menu-address__group {
-  margin-bottom: 36px;
+  margin-bottom: 25px;
 }
 .menu-address__icon-geo {
   width: 17px;
@@ -247,7 +248,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.82;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 .menu-address__contacts {
   font-style: normal;
