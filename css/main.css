@@ -369,6 +369,7 @@ body {
   font-size: 14px;
   line-height: 0.82;
   margin-bottom: 5px;
+  color: #000000;
 }
 .section-children__age {
   font-style: normal;
@@ -411,6 +412,7 @@ body {
   padding: 16px 19px;
   border-radius: 6px;
   background-color: #ffffff;
+  color: #000000;
 }
 .skills-list__item:first-child {
   margin-right: 20px;
@@ -662,6 +664,7 @@ body {
   font-weight: 500;
   font-size: 22px;
   line-height: 1.18;
+  color: #000000;
 }
 
 .interactive {

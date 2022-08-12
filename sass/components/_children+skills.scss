@@ -11,6 +11,7 @@
     font-size: 14px;
     line-height: 0.82;
     margin-bottom: 5px;
+    color: $main-color;
   }
   &__age {
     font-style: normal;
@@ -64,6 +65,7 @@
     padding: 16px 19px;
     border-radius: 6px;
     background-color: $white-color;
+    color: $main-color;
   }
   &__item:first-child {
     margin-right: 20px;
