@@ -292,17 +292,17 @@ body {
   height: 26px;
 }
 
-.hero-section__title {
-  padding-top: 30px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-}
 .hero-section__image {
   width: 100%;
 }
-.hero-section__description {
+.hero-section__group {
+  background-color: #00093c;
+}
+
+.hero-information {
+  position: relative;
+}
+.hero-information__description {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -310,11 +310,14 @@ body {
   margin-top: 21px;
   padding-bottom: 40px;
 }
-.hero-section__group {
-  position: relative;
-  background-color: #00093c;
+.hero-information__title {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
 }
-.hero-section__decorative {
+.hero-information__decorative {
   position: absolute;
   bottom: -13px;
   left: 53px;

@@ -1,14 +1,14 @@
 .hero-section {
-  &__title {
-    padding-top: 30px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    color: $white-color;
-  }
   &__image {
     width: 100%;
   }
+
+  &__group {
+    background-color: #00093c;
+  }
+}
+.hero-information {
+  position: relative;
   &__description {
     font-weight: 500;
     font-size: 14px;
@@ -17,9 +17,12 @@
     margin-top: 21px;
     padding-bottom: 40px;
   }
-  &__group {
-    position: relative;
-    background-color: #00093c;
+  &__title {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: $white-color;
   }
   &__decorative {
     position: absolute;
