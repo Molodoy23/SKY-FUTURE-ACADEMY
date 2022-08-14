@@ -1,0 +1,28 @@
+.section-information {
+  padding-bottom: 30px;
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 19px;
+    grid-column-gap: 10px;
+    align-items: baseline;
+  }
+  &__description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: $main-color;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 1.17;
+    color: $main-color;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  &__img {
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,95 @@
+.footer-page {
+  background-color: $dark-blue-color;
+  &__list-media {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 89px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+  &__icon-vk {
+    fill: $white-color;
+    width: 26px;
+    height: 27px;
+  }
+  &__icon-instagram,
+  &__icon-telegram {
+    fill: $white-color;
+    width: 21px;
+    height: 26px;
+  }
+  &__icon-facebook {
+    fill: $white-color;
+    width: 24px;
+    height: 26px;
+  }
+  &__icon-youtube {
+    fill: $white-color;
+    width: 27px;
+    height: 26px;
+  }
+  &__copyright {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.8;
+    color: #bdbdbd;
+    padding-bottom: 20px;
+  }
+}
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  &__item {
+    margin-top: 12px;
+  }
+  &__group {
+    margin-bottom: 35px;
+  }
+  &__icon-geo {
+    width: 17px;
+    height: 20px;
+  }
+  &__icon-done {
+    width: 8px;
+    height: 4px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+  &__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.82;
+    text-decoration-line: underline;
+    margin-right: 12px;
+    margin-left: 9px;
+  }
+  &__link-sign {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.82;
+    margin-bottom: 50px;
+  }
+  &__contacts {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: $white-color;
+  }
+  &__location,
+  &__email {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    color: $white-color;
+  }
+}
