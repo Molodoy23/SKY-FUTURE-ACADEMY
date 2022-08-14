@@ -121,6 +121,26 @@ body {
   font-family: "Montserrat";
 }
 
+.back_to_top {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #00093c;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50%;
+  display: none;
+}
+
+.back_to_top-show {
+  display: block;
+}
+
 .container {
   padding-right: 10px;
   padding-left: 10px;

@@ -11,3 +11,27 @@ $second-icon-color: #000;
 body {
   font-family: 'Montserrat';
 }
+
+.back_to_top {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: $dark-blue-color;
+  color: $white-color;
+  cursor: pointer;
+  border-radius: 50%;
+  display: none;
+}
+
+// .back_to_top:hover {
+//   background: #e9ebec;
+// }
+
+.back_to_top-show {
+  display: block;
+}
